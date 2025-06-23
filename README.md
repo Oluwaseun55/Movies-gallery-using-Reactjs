@@ -1,5 +1,3 @@
-# Movies-gallery-using-Reactjs
-
 🎬 React Movie Gallery
 
 React Movie Gallery is a modern, responsive web app that allows users to browse, search, and view details of movies using the TMDb API.
@@ -21,7 +19,13 @@ React Movie Gallery is a modern, responsive web app that allows users to browse,
 - CSS3
 - TMDb API
 
+📂 How to Run Locally
 
+```bash
+git clone https://github.com/Oluwaseun55/react-movie-gallery.git
+cd react-movie-gallery
+npm install
+npm run dev
 
 
 Add your TMDb API key in .env:
@@ -32,4 +36,4 @@ Oluyinka Oluwaseun Emmanuel
 📧 oluyinkaoluwaseun6@gmail.com
 🔗 LinkedIn
 💻 GitHub
-
+```

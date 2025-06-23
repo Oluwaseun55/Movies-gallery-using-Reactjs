@@ -1,0 +1,150 @@
+.about-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: #333;
+  background-color: #fafafa;
+  line-height: 1.7;
+}
+
+.about-hero {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.about-hero h1 {
+  font-size: 2.2rem;
+  color: #e60000;
+  margin-bottom: 0.5rem;
+}
+
+.about-hero p {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.about-intro {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.intro-text {
+  flex: 1 1 300px;
+}
+
+.intro-image {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-features ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 2rem;
+}
+
+.about-features li {
+  background: #fff;
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  border-left: 5px solid #e60000;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.about-tech {
+  margin-bottom: 2rem;
+}
+
+.tech-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.tech-grid span {
+  background-color: #e60000;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.about-dev {
+  margin-top: 2rem;
+}
+
+.about-dev .contact {
+  margin-top: 1rem;
+}
+
+.about-dev .contact a {
+  color: #e60000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.about-dev .contact a:hover {
+  text-decoration: underline;
+}
+
+/* ✅ Responsive Design Tweaks */
+
+@media (max-width: 768px) {
+  .about-container {
+    padding: 1rem;
+  }
+
+  .about-hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .about-hero p {
+    font-size: 1rem;
+  }
+
+  .about-intro {
+    flex-direction: column;
+  }
+
+  .tech-grid {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .intro-image,
+  .intro-text {
+    flex: 1 1 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .about-hero p,
+  .about-dev p,
+  .about-features li {
+    font-size: 0.95rem;
+  }
+
+  .tech-grid span {
+    font-size: 0.85rem;
+    padding: 5px 10px;
+  }
+}
